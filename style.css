@@ -93,7 +93,7 @@ nav ul li a:hover {
 #tribute-info li {
   width: 200px;
   height: 200px;
-  margin: 30px;
+  margin: 40px;
 }
 
 .drivers {
@@ -101,7 +101,7 @@ nav ul li a:hover {
 }
 
 .drivers .drivers-img {
-  width: 120%;
+  width: 130%;
   height: 100%;
 }
 
@@ -109,7 +109,7 @@ nav ul li a:hover {
   background-color: black;
   position: absolute;
   top: 0;
-  width: 120%;
+  width: 130%;
   height: 100%;
   color: white;
   display: flex;
