@@ -91,26 +91,33 @@ nav ul li a:hover {
 }
 
 #tribute-info li {
-  width: 200px;
+  width: 700px;
   height: 200px;
-  margin: 40px;
+  margin: auto;
+  margin-right: 6rem;
 }
 
 .drivers {
   position: relative;
 }
 
-.drivers .drivers-img {
-  width: 130%;
-  height: 100%;
+.drivers .drivers-img-charles {
+  width: 140%;
+  height: 105%;
 }
 
-.drivers .drivers-overlay {
+.drivers .drivers-img-carlos {
+  width: 140%;
+  height: 105%;
+  margin-left: 1.8rem;
+}
+
+.drivers .drivers-overlay-charles {
   background-color: black;
   position: absolute;
   top: 0;
-  width: 130%;
-  height: 100%;
+  width: 140%;
+  height: 105%;
   color: white;
   display: flex;
   justify-content: center;
@@ -120,7 +127,27 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-.drivers .drivers-overlay:hover {
+.drivers .drivers-overlay-carlos {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 140%;
+  height: 105%;
+  margin-left: 1.8rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.drivers .drivers-overlay-charles:hover {
+  opacity: 1;
+}
+
+.drivers .drivers-overlay-carlos:hover {
   opacity: 1;
 }
 
