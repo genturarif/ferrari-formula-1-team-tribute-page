@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
 body {
@@ -11,6 +12,7 @@ body {
   box-sizing: border-box;
 }
 
+/* Navbar */
 nav {
   position: fixed;
   top: 0;
@@ -19,32 +21,28 @@ nav {
   width: 100%;
   z-index: 10;
 }
-
 nav ul {
   display: flex;
   justify-content: center;
 }
-
 nav ul li {
   margin: 0 20px;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Main */
 #main {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
 }
-
 #main h1 {
   font-family: "Lato", sans-serif;
   font-size: 12vw;
@@ -52,66 +50,56 @@ nav ul li a:hover {
   padding: 0;
   line-height: 1em;
 }
-
 #main p {
   margin: 0;
   font-size: 4vw;
 }
-
 #img-div {
   padding: 15px;
 }
-
 #image {
   max-width: 100%;
   display: block;
   margin-left: 2.5rem;
   border: 4px solid black;
 }
-
 #img-caption {
   margin-top: 10px;
   font-size: 1em;
 }
 
+/* Drivers */
 #tribute-info {
   width: 600px;
   margin: 50px auto;
 }
-
 #tribute-info h2 {
   text-align: center;
 }
-
 #tribute-info ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-
 #tribute-info li {
   width: 700px;
   height: 200px;
   margin: auto;
   margin-right: 6rem;
 }
-
 .drivers {
   position: relative;
 }
-
 .drivers .drivers-img-charles {
   width: 140%;
   height: 105%;
 }
-
 .drivers .drivers-img-carlos {
   width: 140%;
   height: 105%;
   margin-left: 1.8rem;
 }
-
 .drivers .drivers-overlay-charles {
   background-color: black;
   position: absolute;
@@ -126,7 +114,6 @@ nav ul li a:hover {
   opacity: 0;
   transition: 0.5s;
 }
-
 .drivers .drivers-overlay-carlos {
   background-color: black;
   position: absolute;
@@ -142,51 +129,45 @@ nav ul li a:hover {
   opacity: 0;
   transition: 0.5s;
 }
-
 .drivers .drivers-overlay-charles:hover {
   opacity: 1;
 }
-
 .drivers .drivers-overlay-carlos:hover {
   opacity: 1;
 }
-
 .drivers-title {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 5px;
 }
 
+/* Videos */
 #videos {
   text-align: center;
 }
-
 .video-list {
   margin-top: 30px;
 }
 
+/* Follow */
 #follow {
   text-align: center;
   background-color: black;
   padding: 5px 0;
 }
-
 #follow h2 {
   color: white;
 }
-
 #follow ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-
 #follow li {
   font-size: 2em;
   margin: 0 10px;
 }
-
 #follow li a {
   color: white;
 }
